@@ -1,20 +1,20 @@
 {
-    "name": "laravel-enso/rememberable",
+    "name": "cgdsoftware/rememberable",
     "description": "Model caching dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "rememberable",
         "laravel-cache",
         "model-cache"
     ],
-    "homepage": "https://github.com/laravel-enso/rememberable",
+    "homepage": "https://github.com/cgdsoftware/rememberable",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
