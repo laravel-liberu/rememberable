@@ -4,8 +4,8 @@ use Faker\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Rememberable\Exceptions\Rememberable as Exception;
-use LaravelEnso\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Rememberable\Exceptions\Rememberable as Exception;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
 use Tests\TestCase;
 
 class RememberableTest extends TestCase

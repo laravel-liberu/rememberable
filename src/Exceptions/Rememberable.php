@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Rememberable\Exceptions;
+namespace LaravelLiberu\Rememberable\Exceptions;
 
 use InvalidArgumentException;
 

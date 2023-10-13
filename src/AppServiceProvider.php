@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Rememberable;
+namespace LaravelLiberu\Rememberable;
 
 use Illuminate\Support\ServiceProvider;
 

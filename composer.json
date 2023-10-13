@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Rememberable\\": "src/"
+            "LaravelLiberu\\Rememberable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Rememberable\\AppServiceProvider"
+                "LaravelLiberu\\Rememberable\\AppServiceProvider"
             ],
             "aliases": {}
         }

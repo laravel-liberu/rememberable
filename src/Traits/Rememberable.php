@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Rememberable\Traits;
+namespace LaravelLiberu\Rememberable\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Rememberable\Exceptions\Rememberable as Exception;
+use LaravelLiberu\Rememberable\Exceptions\Rememberable as Exception;
 
 trait Rememberable
 {
