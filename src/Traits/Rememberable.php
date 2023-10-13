@@ -80,13 +80,13 @@ trait Rememberable
     protected function getCacheLifetime()
     {
         return $this->cacheLifetime
-            ?? Config::get('enso.rememberable.cacheLifetime');
+            ?? Config::get('liberu.rememberable.cacheLifetime');
     }
 
     protected function cacheableKeys(): Collection
     {
         $keys = $this->rememberableKeys
-            ?? Config::get('enso.rememberable.keys');
+            ?? Config::get('liberu.rememberable.keys');
 
         return Collection::wrap($keys);
     }

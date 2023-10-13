@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
 
     private function load()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/rememberable.php', 'enso.rememberable');
+        $this->mergeConfigFrom(__DIR__.'/../config/rememberable.php', 'liberu.rememberable');
 
         return $this;
     }
@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     private function publish()
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['rememberable-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['rememberable-config', 'liberu-config']);
     }
 }
